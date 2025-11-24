@@ -2,77 +2,67 @@
 
 ## Overview
 
-A cutting-edge Deep Learning system comparing **6 different models** using **Keras** and **Tensorflow** (with a PyTorch backend) to classify **87 types of gemstones from images**. By leveraging **Transfer Learning** and **Data Augmentation**, this project aims to **automate traditional gemology** and create impactful contributions for the industry and commerce.
+This repository implements a **deep learning system** to classify **87 gemstone types from images** using advanced AI techniques. It's designed to automate traditional gemology, bridging the gap between manual identification and state-of-the-art technology for potential industry impact.
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
-- **Compares 6 State-of-the-Art Models:** Explore which architecture best classifies gemstones.
-- **Transfer Learning:** Benefiting from powerful pre-trained models.
-- **Data Augmentation:** Increasing accuracy and robustness.
-- **Classifies 87 Gemstone Types:** From Sapphire to Spinel.
-- **Impactful Automation:** Bridging the gap between traditional gemology and modern AI.
+- **Multi-Model Comparison:** Six different models are implemented and compared, allowing users to select the architecture that best fits their needs.
+- **Transfer Learning:** The system leverages pre-trained neural networks to improve performance and reduce training time.
+- **Data Augmentation:** Sophisticated augmentation techniques are applied, strengthening model robustness and generalization for diverse gemstone imagery.
+
+---
+
+## 🛠️ Technology Stack
+
+- **Python:** All code and workflows are written in Python.
+- **Libraries:** Utilizes Keras and TensorFlow (with optional PyTorch backend) for model development and experimentation.
+
+---
+
+## 🧠 Workflow Explained
+
+1. **Image Collection and Preparation:** Gemstone images are gathered and preprocessed to ensure data quality.
+2. **Augmentation:** Training images undergo transformations such as rotation, flipping, and scaling to simulate real-world variations.
+3. **Model Selection:** Six popular convolutional neural networks are provided for experimentation.
+4. **Transfer Learning:** Each model is fine-tuned using gemstone data for efficient learning.
+5. **Inference:** Trained models can predict gemstone types from new images with minimal manual intervention.
+
+---
+
+## 🔎 Models Available
+
+The repository enables easy experimentation with multiple architectures:
+- EfficientNetB0
+- EfficientNetB1
+- Dense Neural Networks
+- Convolutional Neural Networks
+---
 
 ## 🚀 Getting Started
 
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/Enyo2004/gemstones_classification_model.git
-cd gemstones_classification_model
-```
-
-### 2. Install Requirements
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Train or Test the Model
-
-To train:
-```bash
-python train.py --model <model_name>
-```
-To predict:
-```bash
-python predict.py --image <path_to_image>
-```
+1. **Clone this repository:**
+   ```bash
+   git clone https://github.com/Enyo2004/gemstones_classification_model.git
+   cd gemstones_classification_model
+   ```
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. **Run your chosen workflow:** Training and prediction scripts are included for running experiments and testing new images.
 
 ---
 
-## 🧠 Models Compared
+## 🌎 Impact
 
-- EfficientNet
-- ResNet50
-- InceptionV3
-- Xception
-- VGG16
-- DenseNet
-
----
-
-## 🏆 How it Works
-
-1. **Data Collection:** Gemstone images are sourced and preprocessed.
-2. **Augmentation & Normalization:** Images are augmented for robustness.
-3. **Transfer Learning:** Each model is fine-tuned for gemstone identification.
-4. **Evaluation:** Accuracy, F1, precision & recall are compared.
-
----
-
-## 📚 References
-
-- [Keras Documentation](https://keras.io/)
-- [TensorFlow Documentation](https://www.tensorflow.org/)
-- [PyTorch Documentation](https://pytorch.org/)
-- [Transfer Learning](https://machinelearningmastery.com/transfer-learning-for-deep-learning/)
+By automating gemstone classification, this project aims to simplify gemology, reduce subjectivity, and contribute to more efficient processes in trade and industry.
 
 ---
 
 <p align="center">
-  <img src="https://img.shields.io/github/languages/top/Enyo2004/gemstones_classification_model" />
-  <img src="https://img.shields.io/github/license/Enyo2004/gemstones_classification_model" />
-  <img src="https://img.shields.io/github/stars/Enyo2004/gemstones_classification_model?style=social" />
+  <a href="https://github.com/Enyo2004/gemstones_classification_model">
+    <img src="https://img.shields.io/github/languages/top/Enyo2004/gemstones_classification_model" alt="Main language: Python" />
+  </a>
 </p>
