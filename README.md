@@ -47,11 +47,8 @@ The repository enables easy experimentation with multiple architectures:
    git clone https://github.com/Enyo2004/gemstones_classification_model.git
    cd gemstones_classification_model
    ```
-2. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. **Run your chosen workflow:** Training and prediction scripts are included for running experiments and testing new images.
+
+2. **Run your chosen workflow:** Training and prediction scripts are included for running experiments and testing new images.
 
 ---
 
