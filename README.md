@@ -14,17 +14,6 @@ A cutting-edge Deep Learning system comparing **6 different models** using **Ker
 - **Classifies 87 Gemstone Types:** From Sapphire to Spinel.
 - **Impactful Automation:** Bridging the gap between traditional gemology and modern AI.
 
----
-
-## 🖼️ Example Results
-
-<p align="center">
-  <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308" width="350" alt="Gemstone Example Image" />
-  <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" width="350" alt="Gemstone Example Image" />
-</p>
-
----
-
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
@@ -61,17 +50,6 @@ python predict.py --image <path_to_image>
 - Xception
 - VGG16
 - DenseNet
-
----
-
-## 📊 Results
-
-| Model         | Accuracy | F1 Score | Precision | Recall |
-|---------------|----------|----------|-----------|--------|
-| EfficientNet  | 95.2%    | 0.96     | 0.95      | 0.96   |
-| ResNet50      | 94.8%    | 0.95     | 0.94      | 0.95   |
-| InceptionV3   | 93.9%    | 0.94     | 0.94      | 0.94   |
-| ...           | ...      | ...      | ...       | ...    |
 
 ---
 
